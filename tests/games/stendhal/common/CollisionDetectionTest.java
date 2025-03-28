@@ -49,7 +49,7 @@ public class CollisionDetectionTest {
 		map.setCollide(1, 0);
 		map.setCollide(1, 2);
 		map.setCollide(2, 1);
-		assertThat(map.collides(0, 0), is(false));
+		assertThat(map.collides(0, 0), is(64));
 		assertThat(map.collides(1, 0), is(true));
 		assertThat(map.collides(2, 0), is(false));
 		assertThat(map.collides(0, 1), is(true));
