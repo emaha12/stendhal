@@ -26,12 +26,12 @@ jobs:
         with:
           nodetail: true
           title: "Unittest failed"
-          description: "https://stendhalgame.org/development/cireport.html"
+          description: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
       - uses: sarisia/actions-status-discord@v1
         if: failure()
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_DEVLOG }}
         with:
           nodetail: true
-          title: "Unittest failed"
-          description: "https://stendhalgame.org/development/cireport.html"
+          title: "mamma mia"
+          description: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
